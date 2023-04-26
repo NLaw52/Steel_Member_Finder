@@ -9,7 +9,7 @@
 * Example:
   * App starts with a list of AISC standard shapes (it is assumed that the user is familiar with the AISC standard and corresponding shape designations).
   <p align="center">
-   <img src="https://user-images.githubusercontent.com/116110636/234703857-677d6095-7d21-4698-bf46-7ba19b662d3b.png" width="400" align="center">
+   <img src="https://user-images.githubusercontent.com/116110636/234703857-677d6095-7d21-4698-bf46-7ba19b662d3b.png" width="400">
   </p>
 
   * Selected a W (I-Beam) shape and prompted with user measurement inputs.
