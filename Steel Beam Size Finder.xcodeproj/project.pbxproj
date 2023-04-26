@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BA5BA5029A8028800DE0240 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA5BA4F29A8028800DE0240 /* AppDelegate.swift */; };
+		9BA5BA5229A8028800DE0240 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA5BA5129A8028800DE0240 /* SceneDelegate.swift */; };
+		9BA5BA5429A8028800DE0240 /* ShapeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA5BA5329A8028800DE0240 /* ShapeListViewController.swift */; };
+		9BA5BA5729A8028800DE0240 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA5BA5529A8028800DE0240 /* Main.storyboard */; };
+		9BA5BA5929A8028A00DE0240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA5BA5829A8028A00DE0240 /* Assets.xcassets */; };
+		9BA5BA5C29A8028A00DE0240 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA5BA5A29A8028A00DE0240 /* LaunchScreen.storyboard */; };
+		9BA5BA6729A8281300DE0240 /* GeneralShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA5BA6629A8281300DE0240 /* GeneralShapes.swift */; };
+		9BA5BA6929A8339200DE0240 /* InputsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA5BA6829A8339200DE0240 /* InputsViewController.swift */; };
+		9BBE6EB329ADA1A400F4FCCA /* ResultsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBE6EB229ADA1A400F4FCCA /* ResultsDetailViewController.swift */; };
+		9BFBADE129A8B5CD0029F3C1 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBADE029A8B5CD0029F3C1 /* ResultsViewController.swift */; };
+		9BFBADE329A96CD80029F3C1 /* FinderBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBADE229A96CD80029F3C1 /* FinderBrain.swift */; };
+		9BFBADE529A96D490029F3C1 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBADE429A96D490029F3C1 /* Shape.swift */; };
+		9BFBADF029AAD81F0029F3C1 /* HandleCSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBADEF29AAD81F0029F3C1 /* HandleCSV.swift */; };
+		9BFBADF229AAD9DF0029F3C1 /* SampleData.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9BFBADF129AAD9DF0029F3C1 /* SampleData.csv */; };
+		9BFBADF429AAE68E0029F3C1 /* Database v15.0-Table_Cleaned.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9BFBADF329AAE68E0029F3C1 /* Database v15.0-Table_Cleaned.csv */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9BA5BA4C29A8028800DE0240 /* Steel Beam Size Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Steel Beam Size Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA5BA4F29A8028800DE0240 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BA5BA5129A8028800DE0240 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9BA5BA5329A8028800DE0240 /* ShapeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeListViewController.swift; sourceTree = "<group>"; };
+		9BA5BA5629A8028800DE0240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BA5BA5829A8028A00DE0240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BA5BA5B29A8028A00DE0240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BA5BA5D29A8028A00DE0240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BA5BA6629A8281300DE0240 /* GeneralShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralShapes.swift; sourceTree = "<group>"; };
+		9BA5BA6829A8339200DE0240 /* InputsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputsViewController.swift; sourceTree = "<group>"; };
+		9BBE6EB229ADA1A400F4FCCA /* ResultsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsDetailViewController.swift; sourceTree = "<group>"; };
+		9BFBADE029A8B5CD0029F3C1 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		9BFBADE229A96CD80029F3C1 /* FinderBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderBrain.swift; sourceTree = "<group>"; };
+		9BFBADE429A96D490029F3C1 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		9BFBADEF29AAD81F0029F3C1 /* HandleCSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleCSV.swift; sourceTree = "<group>"; };
+		9BFBADF129AAD9DF0029F3C1 /* SampleData.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = SampleData.csv; sourceTree = "<group>"; };
+		9BFBADF329AAE68E0029F3C1 /* Database v15.0-Table_Cleaned.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Database v15.0-Table_Cleaned.csv"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BA5BA4929A8028800DE0240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BA5BA4329A8028800DE0240 = {
+			isa = PBXGroup;
+			children = (
+				9BA5BA4E29A8028800DE0240 /* Steel Beam Size Finder */,
+				9BA5BA4D29A8028800DE0240 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BA5BA4D29A8028800DE0240 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BA5BA4C29A8028800DE0240 /* Steel Beam Size Finder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BA5BA4E29A8028800DE0240 /* Steel Beam Size Finder */ = {
+			isa = PBXGroup;
+			children = (
+				9BA5BA4F29A8028800DE0240 /* AppDelegate.swift */,
+				9BA5BA5129A8028800DE0240 /* SceneDelegate.swift */,
+				9BFBADEC29AAAE960029F3C1 /* Data */,
+				9BA5BA6529A827B700DE0240 /* Model */,
+				9BA5BA6429A827A600DE0240 /* Controller */,
+				9BA5BA6329A8279F00DE0240 /* View */,
+				9BA5BA5829A8028A00DE0240 /* Assets.xcassets */,
+				9BA5BA5A29A8028A00DE0240 /* LaunchScreen.storyboard */,
+				9BA5BA5D29A8028A00DE0240 /* Info.plist */,
+			);
+			path = "Steel Beam Size Finder";
+			sourceTree = "<group>";
+		};
+		9BA5BA6329A8279F00DE0240 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BA5BA5529A8028800DE0240 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9BA5BA6429A827A600DE0240 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9BA5BA5329A8028800DE0240 /* ShapeListViewController.swift */,
+				9BA5BA6829A8339200DE0240 /* InputsViewController.swift */,
+				9BFBADE029A8B5CD0029F3C1 /* ResultsViewController.swift */,
+				9BBE6EB229ADA1A400F4FCCA /* ResultsDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9BA5BA6529A827B700DE0240 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9BA5BA6629A8281300DE0240 /* GeneralShapes.swift */,
+				9BFBADE229A96CD80029F3C1 /* FinderBrain.swift */,
+				9BFBADE429A96D490029F3C1 /* Shape.swift */,
+				9BFBADEF29AAD81F0029F3C1 /* HandleCSV.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9BFBADEC29AAAE960029F3C1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9BFBADF129AAD9DF0029F3C1 /* SampleData.csv */,
+				9BFBADF329AAE68E0029F3C1 /* Database v15.0-Table_Cleaned.csv */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BA5BA4B29A8028800DE0240 /* Steel Beam Size Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BA5BA6029A8028A00DE0240 /* Build configuration list for PBXNativeTarget "Steel Beam Size Finder" */;
+			buildPhases = (
+				9BA5BA4829A8028800DE0240 /* Sources */,
+				9BA5BA4929A8028800DE0240 /* Frameworks */,
+				9BA5BA4A29A8028800DE0240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Steel Beam Size Finder";
+			productName = "Steel Beam Size Finder";
+			productReference = 9BA5BA4C29A8028800DE0240 /* Steel Beam Size Finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BA5BA4429A8028800DE0240 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9BA5BA4B29A8028800DE0240 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 9BA5BA4729A8028800DE0240 /* Build configuration list for PBXProject "Steel Beam Size Finder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BA5BA4329A8028800DE0240;
+			productRefGroup = 9BA5BA4D29A8028800DE0240 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BA5BA4B29A8028800DE0240 /* Steel Beam Size Finder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BA5BA4A29A8028800DE0240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA5BA5C29A8028A00DE0240 /* LaunchScreen.storyboard in Resources */,
+				9BFBADF429AAE68E0029F3C1 /* Database v15.0-Table_Cleaned.csv in Resources */,
+				9BA5BA5929A8028A00DE0240 /* Assets.xcassets in Resources */,
+				9BFBADF229AAD9DF0029F3C1 /* SampleData.csv in Resources */,
+				9BA5BA5729A8028800DE0240 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BA5BA4829A8028800DE0240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA5BA6929A8339200DE0240 /* InputsViewController.swift in Sources */,
+				9BA5BA6729A8281300DE0240 /* GeneralShapes.swift in Sources */,
+				9BFBADE329A96CD80029F3C1 /* FinderBrain.swift in Sources */,
+				9BFBADF029AAD81F0029F3C1 /* HandleCSV.swift in Sources */,
+				9BBE6EB329ADA1A400F4FCCA /* ResultsDetailViewController.swift in Sources */,
+				9BA5BA5429A8028800DE0240 /* ShapeListViewController.swift in Sources */,
+				9BA5BA5029A8028800DE0240 /* AppDelegate.swift in Sources */,
+				9BA5BA5229A8028800DE0240 /* SceneDelegate.swift in Sources */,
+				9BFBADE129A8B5CD0029F3C1 /* ResultsViewController.swift in Sources */,
+				9BFBADE529A96D490029F3C1 /* Shape.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9BA5BA5529A8028800DE0240 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BA5BA5629A8028800DE0240 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BA5BA5A29A8028A00DE0240 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BA5BA5B29A8028A00DE0240 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BA5BA5E29A8028A00DE0240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BA5BA5F29A8028A00DE0240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BA5BA6129A8028A00DE0240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y34678TP9S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Steel Beam Size Finder/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple.Steel-Beam-Size-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BA5BA6229A8028A00DE0240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y34678TP9S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Steel Beam Size Finder/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple.Steel-Beam-Size-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BA5BA4729A8028800DE0240 /* Build configuration list for PBXProject "Steel Beam Size Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA5BA5E29A8028A00DE0240 /* Debug */,
+				9BA5BA5F29A8028A00DE0240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BA5BA6029A8028A00DE0240 /* Build configuration list for PBXNativeTarget "Steel Beam Size Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA5BA6129A8028A00DE0240 /* Debug */,
+				9BA5BA6229A8028A00DE0240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BA5BA4429A8028800DE0240 /* Project object */;
+}
